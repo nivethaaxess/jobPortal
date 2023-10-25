@@ -1,3 +1,4 @@
+
 import Candidate_Status from "./Component/candidate_Status";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
       <Candidate_Status/>
     </div>
   );
+
 }
 
-export default App;
+export default App
