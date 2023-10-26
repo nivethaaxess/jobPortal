@@ -27,7 +27,7 @@ function Candidate() {
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="#">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" to="#">
