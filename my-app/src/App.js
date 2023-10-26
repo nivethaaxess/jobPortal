@@ -1,10 +1,12 @@
 
-import Candidate_Status from "./Component/candidate_Status";
+import Candidate_Status from "./Component/Employer_status";
+import Employer_profile from "./Component/Employer_profile";
 
 function App() {
   return (
     <div className="App">
-      <Candidate_Status/>
+      {/* <Candidate_Status/> */}
+      <Employer_profile/>
     </div>
   );
 
