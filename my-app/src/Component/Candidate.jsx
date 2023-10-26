@@ -2,7 +2,6 @@ import React from "react";
 import "./Candidate.css";
 import logo from "../assets/logo.png";
 
-
 function Candidate() {
   return (
     <div>
@@ -25,14 +24,14 @@ function Candidate() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="#">
+                <a className="nav-link active" aria-current="page" to="#">
                   Home
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#">
+                <a className="nav-link" to="#">
                   Link
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -45,8 +44,8 @@ function Candidate() {
               <div class="col-12 text-center align-self-center py-5">
                 <div class="section pb-5 pt-5 pt-sm-2 text-center">
                   <h6 class="mb-0 pb-3">
-                    <span>Log In </span>
-                    <span>Sign Up</span>
+                    <span>Candidate</span>
+                    <span>Employer</span>
                   </h6>
                   <input
                     class="checkbox"
@@ -88,7 +87,7 @@ function Candidate() {
                             </a>
                             <p class="mb-0 mt-4 text-center">
                               <a href="#0" class="link">
-                                Forgot your password?
+                               New user <span className="">Sign Up</span>
                               </a>
                             </p>
                           </div>
@@ -178,7 +177,7 @@ function Candidate() {
                               />
                               <i class="input-icon uil uil-lock-alt" />
                             </div>
-                            <a href="#" class="btn mt-4">
+                            <a href="#" class="btn mt-4 mb-3">
                               submit
                             </a>
                           </div>
