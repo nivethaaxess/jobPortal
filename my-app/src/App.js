@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       {/* <Candidate_Status/> */}
-      <Employer_profile/>
+      {/* <Employer_profile/> */}
     </div>
   );
 
